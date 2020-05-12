@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#mapid { 
+    height: 400px;
+    width: 600px;
+}
+
+#dropOperator{
+
+}
+
+figure{
+    position: relative;
+    margin: 0;
+    flex: 0 0 25%;
+    max-width: 25%;
+    text-align: center;
+  }
+  
+  .diplomas-item img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .diplomas-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 0 0;
+  }
+  
+  /* .diplomas-item:before {
+    position: absolute;
+    display: block;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.4;
+  }
+  
+  .diplomas-item figcaption{
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .diplomas-item:hover:before, .diplomas-item:hover figcaption {
+    display: block;
+  } */
+
+.statement{
+    background-image: url("../myIMG/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+.statement img{
+    height: 250px;
+    width: 96%;
+  }
+
+.mySzalik {
+    color: yellow;
+}
+
+.diplomas h2 {
+    color: #11203E;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+section {
+    padding: 60px 0;
+  }
+  
+  .section-title{
+    position: relative;
+    margin: 0 0 60px 0;
+    text-align: center;
+  }
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1032px;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.header {
+    background-image: url("../myIMG/bg.jpg");
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.header .container{
+    margin: auto auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+
+.header h1 {
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.boxes {
+    background-color: #11203E;
+    padding: 80px 0;
+}
+
+.boxes .container{
+    display: flex;
+    align-items: center;
+}
+
+.boxes .box {
+    text-align: center;
+    padding: 0 20px;
+}
+
+.boxes .box-title {
+    font-weight: 600;
+    font-size: 27px;
+    margin: 30px 0;
+}
+
+.boxes .box-content {
+    font-weight: 300;
+    font-size: 0.9em;
+    line-height: 1.2em;
+    color: #b7b7b7;
+}
+
+.boxes .box-btn {
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 36px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.box i {
+    font-size: 65px;
+}
+
+#kontakt img {
+    height: 70px;
+    width: 70px;
+}
+
+.diplomas {
+    padding: 0px;
+}
+
+footer{
+    background-color: #000;
+}
+
+footer .container {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: #b7b7b7;
+}
+
+@media (max-width: 750px){
+    .boxes {
+        background-color: #11203E;
+        padding: 0 0;
+    }
+    .box i {
+        font-size: 45px;
+    }
+    .boxes .box-title {
+        font-weight: 600;
+        font-size: 20px;
+        margin: 20px 0;
+    }
+    .boxes .box-content {
+        padding: 0 30px;
+    }
+    .boxes .container {
+        display: block;
+    }
+    .boxes .box {
+        text-align: center;
+        padding: 25px 30px;
+        padding-top: 60px;
+    }
+    #mapid {
+        height: 250px;
+        width: auto;
+    }
+    .header .container {
+        height: 700px;
+    }
+    .statement img {
+        height: 200px;
+    }
+    footer .container {
+        height: 80px;
+    }
+}
+
+@media (max-width: 550px){
+    .boxes .box-content {
+        padding: 0 40px;
+    }
+    .header h1 {
+        font-size: 45px;
+    }
+    .statement img {
+        height: 130px;
+    }
+    section {
+        padding: 25px 0;
+    }
+    .diplomas-wrapper {
+        margin: 27px 0 0 0;
+    }
+}
+
+@media (max-width: 380px){
+    .box i {
+        font-size: 30px;
+    }
+    .boxes .box-title {
+        font-weight: 600;
+        font-size: 16px;
+        margin: 15px 0;
+    }
+    #mapid {
+        height: 170px;
+        width: auto;
+    }
+    .boxes .box {
+        text-align: center;
+        padding: 10px 30x;
+    }
+    .boxes .box-content {
+        padding: 0 5px;
+    }
+    .header {
+        height: 60%;
+    }
+    .header h1 {
+        font-size: 35px;
+    }
+    .statement img {
+        height: 110px;
+    }
+}
